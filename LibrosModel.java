@@ -1,8 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package entregables4;
+
 
 import com.csvreader.CsvReader;
 import com.mysql.cj.protocol.Resultset;
@@ -12,10 +8,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import javafx.scene.control.Alert;
 
-/**
- *
- * @author Joan_2k2
- */
+
 public class LibrosModel extends DBUtil {
 
     public ArrayList<Libro> MostrarTodo( String consulta) {
